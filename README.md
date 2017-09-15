@@ -52,4 +52,4 @@ Note that .pkl file should be placed in the Data folder.
 
 
 ## Other Implementation ##
-1. [Python Implementation] (https://github.com/yhenon/pyrcc) by Yann Henon
+1. [Python Implementation](https://github.com/yhenon/pyrcc) by Yann Henon
