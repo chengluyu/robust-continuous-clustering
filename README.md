@@ -49,3 +49,7 @@ To construct edge set and to create preprocessed input file from the raw feature
 python edgeConstruction.py --dataset MNIST.pkl --samples 70000 --prep 'minmax' --k 10 --algo 'mknn'
 ```
 Note that .pkl file should be placed in the Data folder.
+
+
+## Other Implementation ##
+1. [Python Implementation] (https://github.com/yhenon/pyrcc) by Yann Henon
