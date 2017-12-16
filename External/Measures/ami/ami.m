@@ -137,7 +137,7 @@ EMI_bound=sum(sum(bound));
 EMI_bound_2=log(R*C/N+(N-R)*(N-C)/(N*(N-1)));
 EMI=sum(sum(EPLNP-E3));
 
-AMI_=(MI-EMI)/(max(Ha,Hb)-EMI);
+AMI_=(MI-EMI)/(sqrt(Ha*Hb)-EMI);
 NMI=MI/sqrt(Ha*Hb);
 
 
