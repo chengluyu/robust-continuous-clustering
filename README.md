@@ -33,7 +33,7 @@ We have provided an MNIST dataset file in the [Data](Data) folder. For example, 
 > [clustAssign,numcomponents,optTime,gtlabels,nCluster] = RCC('Data/MNIST.mat', 100, 4);
 > [clustAssign,numcomponents,optTime,gtlabels,nCluster] = RCCDR('Data/MNIST.mat', 100, 4);
 ```
-The other preprocessed datasets can be found in gdrive [folder].(https://drive.google.com/drive/folders/1vN4IpmjJvRngaGkLSyKVsPaoGXL02mFf?usp=sharing)
+The other preprocessed datasets can be found in gdrive [folder](https://drive.google.com/drive/folders/1vN4IpmjJvRngaGkLSyKVsPaoGXL02mFf?usp=sharing).
 
 ### Evaluation ###
 To evaluate the cluster assignment using various measures, use [evaluate.m](Toolbox/evaluate.m) from the Toolbox folder. In MATLAB console, run
