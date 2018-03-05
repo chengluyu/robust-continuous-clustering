@@ -7,6 +7,18 @@ This is a MATLAB implementation of the RCC and RCC-DR algorithms presented in th
 Sohil Atul Shah and Vladlen Koltun. Robust Continuous Clustering. Proceedings of the National Academy of Sciences (PNAS), 2017.
 
 If you use this code in your research, please cite our paper.
+```
+@article{shah2017robust,
+  title={Robust continuous clustering},
+  author={Shah, Sohil Atul and Koltun, Vladlen},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={114},
+  number={37},
+  pages={9814--9819},
+  year={2017},
+  publisher={National Acad Sciences}
+}
+```
 
 The source code and dataset are published under the MIT license. See [LICENSE](LICENSE) for details. In general, you can use the code for any purpose with proper attribution. If you do something interesting with the code, we'll be happy to know. Feel free to contact us.
 
