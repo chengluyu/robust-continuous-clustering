@@ -20,6 +20,10 @@ If you use this code in your research, please cite our paper.
 }
 ```
 
+We have further improved upon this work and extended dimensionality reduction using Deep Autoencoders in the following paper ([paper](http://arxiv.org/abs/1803.01449)) ([code](https://github.com/shahsohil/DCC)):
+
+Sohil Atul Shah and Vladlen Koltun. Deep Continuous Clustering.
+
 The source code and dataset are published under the MIT license. See [LICENSE](LICENSE) for details. In general, you can use the code for any purpose with proper attribution. If you do something interesting with the code, we'll be happy to know. Feel free to contact us.
 
 We include two external packages in the codebase ([CMG](http://www.cs.cmu.edu/~jkoutis/cmg.html) and [Geometry Processing Toolbox](https://github.com/alecjacobson/gptoolbox)). These packages are under a BSD-style license. See [External/README.txt](source/External/README.txt) for details.
