@@ -1,3 +1,5 @@
 Data/
 *.mexa64
 *.mexw64
+
+.DS_Store
