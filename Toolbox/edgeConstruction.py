@@ -85,7 +85,7 @@ def kNN(X, k, measure='euclidean'):
             else:
                 weights.append((j, i, d*d))
     weights = sorted(weights, key=lambda r: (r[0], r[1]))
-    return unique_rows(np.asarray(weights))
+    return np.unique_rows(np.asarray(weights))
 
 
 def mkNN(X, k, measure='euclidean'):
@@ -210,8 +210,8 @@ if __name__=='__main__':
    Coil100	|7200	| [128,128,3]
    YTF  	|10056	| [55,55,3]
    Reuters	|9082	| 2000
-   RCV1		|10000	| 2000 
-   -----------------------------   
+   RCV1		|10000	| 2000
+   -----------------------------
    """
 
     random.seed(50)
