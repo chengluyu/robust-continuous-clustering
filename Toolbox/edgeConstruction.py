@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from time import time
 import os
 import numpy as np
@@ -26,9 +28,9 @@ def load_data(filename, n_samples):
 
 def load_matdata(filename, n_samples):
     data = sio.loadmat(filename)
-    labels = data['labels'][0:n_samples]
+    labels = data['Y'][0:n_samples]
     labels = np.squeeze(labels)
-    features = data['data'][0:n_samples]
+    features = data['X'][0:n_samples]
     features = features.astype(np.float32, copy=False)
     features = features.reshape((n_samples, -1))
     return labels, features
@@ -143,7 +145,7 @@ def compressed_data(dataset, n_samples, k, preprocess=None, algo='mknn', isPCA=N
 
     datavar = dataset.split('.')
 
-    datafile = os.path.join('..', 'Data', dataset)
+    datafile = os.path.join('..', 'Data/Origin', dataset)
     if datavar[-1] == 'pkl':
         labels,features = load_data(datafile, n_samples)
     elif datavar[-1] == 'h5':
